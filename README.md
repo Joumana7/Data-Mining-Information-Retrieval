@@ -11,7 +11,6 @@ This project focuses on building a full-featured Information Retrieval (IR) syst
 - Inverted index construction
 - Query preprocessing and TF-IDF based ranking
 - Query expansion using:
-  - RM3 feedback model
   - GloVe word embeddings
   - ELMo contextual embeddings
   - BERT embeddings
@@ -29,12 +28,7 @@ This project focuses on building a full-featured Information Retrieval (IR) syst
 ├── preprocess.py # Text preprocessing functions
 ├── retrieval.py # Query processing and TF-IDF ranking
 ├── expansion.py # Query expansion using RM3, GloVe, ELMo, BERT
-├── evaluation.py # Evaluation metrics (Precision, Recall, MAP)
-├── templates/
-│ ├── home.html # Homepage for query input
-│ └── results.html # Results page to display retrieved documents
-├── static/
-│ └── style.css # Styling for the HTML pages
+├── evaluation.py # Evaluation metrics (Precision, Recall)
 ├── README.md # This file
 └── requirements.txt # Python dependencies
 
