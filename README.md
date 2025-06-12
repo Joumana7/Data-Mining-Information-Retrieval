@@ -22,15 +22,7 @@ This project focuses on building a full-featured Information Retrieval (IR) syst
 ##  Project Structure
 
 📁 data_mining_ir_project/
-│
-├── app.py # Flask web application
-├── index.py # Code for indexing and inverted index creation
-├── preprocess.py # Text preprocessing functions
-├── retrieval.py # Query processing and TF-IDF ranking
-├── expansion.py # Query expansion using RM3, GloVe, ELMo, BERT
-├── evaluation.py # Evaluation metrics (Precision, Recall)
-├── README.md # This file
-└── requirements.txt # Python dependencies
+Run colab file 
 
 
 ##  Methodology
@@ -74,10 +66,6 @@ This project focuses on building a full-featured Information Retrieval (IR) syst
 
 ### 7. Web Interface
 - Built with **Flask**.
-- Features:
-  - Homepage for entering queries
-  - Results page displaying ranked document matches
-  - Integrated backend logic for query preprocessing, expansion, and retrieval
 
 ---
 
@@ -93,29 +81,10 @@ pip install -r requirements.txt
 python app.py
 
 Visit http://127.0.0.1:5000 in your browser.
-Sample Use Case
 
-    User enters a query such as:
 
-    neural network applications
 
-    Query is preprocessed and expanded using RM3 and embedding models.
-
-    TF-IDF model retrieves relevant documents.
-
-    Evaluation metrics are computed using Qrels.
-
-    Results are displayed on the web interface.
-
-Results Summary
-
-    Improved retrieval quality using query expansion techniques.
-
-    Semantic embeddings helped enhance query understanding.
-
-    Evaluation metrics provided insights into the performance of each method.
-
- References
+References
 
     ir_datasets
 
